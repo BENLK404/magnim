@@ -1,0 +1,207 @@
+.anchorpane{
+    -fx-background-color: #150a79;
+    -fx-background-radius: 20px;
+
+}
+.white{
+    -fx-background-color: #fcfcfc;
+}
+.gray{
+    -fx-background-color: #d0d0d0;
+}
+.retangle1{
+    -fx-background-radius: 0px 0px 20px 20px;
+}
+.retangles{
+    -fx-background-radius: 20px;
+}
+.shadow{
+    -fx-effect: dropshadow(three-pass-box, rgb(133, 126, 126), 5,0,0,1)
+}
+.nav-bar-btn{
+    -fx-background-radius: 20px;
+    -fx-background-color: transparent;
+    -fx-text-fill: #fcfcfc;
+    -fx-font-size: 17px;
+    -fx-font-weight: 600;
+    -fx-cursor: hand;
+}
+.nav-bar-btn:hover{
+    -fx-background-color: #fcfcfc;
+    -fx-text-fill:#150a79 ;
+    -fx-font-weight: 700;
+}
+.carre{
+    -fx-background-radius: 50%;
+
+}
+.search-text-field{
+    -fx-background-color: #d0d0d0;
+    -fx-border-width: .5px;
+    -fx-background-radius: 20px;
+    -fx-text-fill: #150a79;
+    -fx-font-size: 14px;
+    -fx-font-weight: 700;
+
+}
+.signout-text{
+    -fx-text-fill: #fcfcfc;
+    -fx-font-weight: 600;
+    -fx-font-size: 14px;
+
+}
+.milieu-retangle{
+    -fx-background-radius: 50px;
+}
+.cyan{
+    -fx-background-color: #3cc6b7;
+}
+.name-app{
+    -fx-text-fill:#3cc6b7 ;
+    -fx-font-size: 15px;
+    -fx-font-weight: 700;
+}
+.search-btn{
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+
+}
+.signout-btn{
+    -fx-background-radius: 50%;
+    -fx-background-color: transparent;
+
+}
+.signout-btn:hover{
+    -fx-background-color: #a40c0c;
+    -fx-cursor: hand;
+}
+.orange{
+    -fx-background-color: orange;
+}
+.welcome-text{
+    -fx-text-fill: #271e80;
+    -fx-font-weight: 700;
+    -fx-font-size: 25px;
+}
+.tmoney-text{
+    -fx-text-fill: yellow;
+    -fx-font-weight: 700;
+
+}
+.moov-text{
+    -fx-text-fill: #3636de;
+    -fx-font-weight: 700;
+}
+.paypal-text{
+    -fx-text-fill: black;
+    -fx-font-weight: 700;
+}
+.compte-text{
+    -fx-text-fill: #464545;
+    -fx-font-size: 11px;
+    -fx-font-weight: 800;
+}
+.caffe{
+    -fx-background-color: #936837;
+}
+.solde-text{
+    -fx-text-fill: #3cc6b7;
+    -fx-font-weight: 700;
+    -fx-font-size: 20px;
+}
+.solde{
+    -fx-text-fill: #fcfcfc;
+    -fx-font-size: 30px;
+    -fx-font-weight: 700;
+
+
+}
+.nb-jour{
+    -fx-text-fill: #936837;
+    -fx-font-weight: 700;
+}
+.nom-jour{
+    -fx-font-weight: 700;
+}
+
+.moi-annee{
+    -fx-font-weight: 600;
+    -fx-font-size: 16px;
+}
+.notif-btn{
+    -fx-background-color: transparent;
+    -fx-background-radius: 50%;
+    -fx-cursor: hand;
+}
+.profil{
+    -fx-cursor: hand;
+}
+.shadow-2 {
+    -fx-effect: dropshadow(three-pass-box, rgb(52, 52, 51), 2, 0, 0, 2)
+}
+.transact-btn{
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+.back-btn{
+    -fx-cursor: hand;
+    -fx-background-color: transparent;
+    -fx-background-radius: 50%;
+}
+.back-btn:hover{
+    -fx-background-color:#3cc6b7 ;
+}
+.menu-nav-bar-btn{
+    -fx-background-radius: 20px;
+    -fx-background-color: transparent;
+    -fx-text-fill: #fcfcfc;
+    -fx-font-size: 17px;
+    -fx-font-weight: 700;
+    -fx-cursor: hand;
+}
+.menu-nav-bar-btn:hover{
+    -fx-background-color: #ffff;
+    -fx-text-fill:#3cc6b7;
+    -fx-font-weight: 700;
+    -fx-font-size: 20px;
+
+}
+.transact-btn2{
+    -fx-background-radius: 20px;
+    -fx-background-color: transparent;
+    -fx-text-fill: #fcfcfc;
+    -fx-font-size: 14px;
+    -fx-font-weight: 700;
+    -fx-cursor: hand;
+
+}
+.transact-btn2:hover{
+    -fx-background-color: #ffff;
+    -fx-text-fill:#3cc6b7;
+    -fx-font-weight: 700;
+    -fx-font-size: 20px;
+}
+.depot-textField{
+    -fx-background-color: transparent;
+    -fx-border-width: .5px;
+    -fx-border-radius: 20px;
+    -fx-border-color: #3cc6b7;
+}
+.depot-combobox{
+    -fx-background-color: #3cc6b7;
+    -fx-background-radius: 20px;
+}
+.depot-valide-btn{
+    -fx-background-color: transparent;
+    -fx-border-color: #3cc6b7;
+    -fx-border-width: .5px;
+    -fx-border-radius: 20px;
+    -fx-text-fill: #3cc6b7;
+
+}
+.depot-valide-btn:hover{
+    -fx-background-color: #3cc6b7;
+    -fx-text-fill: #fff;
+    -fx-background-radius: 20px;
+    -fx-font-weight: 700;
+}

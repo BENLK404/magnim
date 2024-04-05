@@ -1,0 +1,55 @@
+.menu-nav-bar-btn{
+    -fx-background-radius: 20px;
+    -fx-background-color: transparent;
+    -fx-text-fill: #fcfcfc;
+    -fx-font-size: 17px;
+    -fx-font-weight: 600;
+    -fx-cursor: hand;
+}
+.menu-nav-bar-btn:hover{
+    -fx-background-color: #ffff;
+    -fx-text-fill:#271e80;
+    -fx-font-weight: 700;
+    -fx-font-size: 20px;
+
+}
+.transact-btn2{
+    -fx-background-radius: 20px;
+    -fx-background-color: transparent;
+    -fx-text-fill: #fcfcfc;
+    -fx-font-size: 14px;
+    -fx-font-weight: 700;
+    -fx-cursor: hand;
+
+}
+.transact-btn2:hover{
+    -fx-background-color: #ffff;
+    -fx-text-fill:#271e80;
+    -fx-font-weight: 700;
+    -fx-font-size: 20px;
+}
+.depot-textField{
+    -fx-background-color: transparent;
+    -fx-border-width: .5px;
+    -fx-border-radius: 20px;
+    -fx-border-color: #271e80;
+    -fx-text-fill: #fff;
+}
+.depot-combobox{
+    -fx-background-color: #271e80;
+    -fx-background-radius: 20px;
+}
+.depot-valide-btn{
+    -fx-background-color: transparent;
+    -fx-border-color: #271e80;
+    -fx-border-width: .5px;
+    -fx-border-radius: 20px;
+    -fx-text-fill: #271e80;
+
+}
+.depot-valide-btn:hover{
+    -fx-background-color: #271e80;
+    -fx-text-fill: #fff;
+    -fx-background-radius: 20px;
+    -fx-font-weight: 700;
+}

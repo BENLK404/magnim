@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1100.0" stylesheets="@../styles/home.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MainController">
+   <children>
+      <AnchorPane fx:id="home" prefHeight="200.0" prefWidth="200.0" styleClass="white" stylesheets="@../styles/home.css">
+         <children>
+            <AnchorPane fx:id="affiche_pane" layoutX="156.0" layoutY="1.0" prefHeight="601.0" prefWidth="946.0" styleClass="white" stylesheets="@../styles/home.css">
+               <children>
+                  <TextField layoutX="262.0" layoutY="10.0" prefHeight="36.0" prefWidth="256.0" promptText=" search..." styleClass="search-text-field" />
+                  <AnchorPane layoutX="53.0" layoutY="435.0" prefHeight="145.0" prefWidth="510.0">
+                     <styleClass>
+                        <String fx:value="gray" />
+                        <String fx:value="retangles" />
+                     </styleClass>
+                     <children>
+                        <AnchorPane layoutX="31.0" layoutY="31.0" prefHeight="87.0" prefWidth="128.0">
+                           <styleClass>
+                              <String fx:value="orange" />
+                              <String fx:value="retangles" />
+                           </styleClass>
+                        </AnchorPane>
+                        <AnchorPane layoutX="190.0" layoutY="31.0" prefHeight="87.0" prefWidth="128.0">
+                           <styleClass>
+                              <String fx:value="caffe" />
+                              <String fx:value="retangles" />
+                           </styleClass>
+                        </AnchorPane>
+                        <AnchorPane layoutX="349.0" layoutY="30.0" prefHeight="87.0" prefWidth="128.0">
+                           <styleClass>
+                              <String fx:value="white" />
+                              <String fx:value="retangles" />
+                           </styleClass>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="622.0" layoutY="276.0" prefHeight="304.0" prefWidth="297.0" stylesheets="@../styles/home.css">
+                     <styleClass>
+                        <String fx:value="gray" />
+                        <String fx:value="retangles" />
+                     </styleClass>
+                     <children>
+                        <AnchorPane layoutX="57.0" layoutY="192.0" prefHeight="80.0" prefWidth="75.0">
+                           <styleClass>
+                              <String fx:value="anchorpane" />
+                              <String fx:value="retangles" />
+                           </styleClass>
+                        </AnchorPane>
+                        <AnchorPane layoutX="160.0" layoutY="243.0" prefHeight="29.0" prefWidth="75.0">
+                           <styleClass>
+                              <String fx:value="anchorpane" />
+                              <String fx:value="retangles" />
+                           </styleClass>
+                        </AnchorPane>
+                        <AnchorPane layoutX="53.0" layoutY="45.0" prefHeight="79.0" prefWidth="192.0">
+                           <styleClass>
+                              <String fx:value="white" />
+                              <String fx:value="retangles" />
+                           </styleClass>
+                        </AnchorPane>
+                        <AnchorPane layoutX="58.0" layoutY="152.0" prefHeight="29.0" prefWidth="75.0">
+                           <styleClass>
+                              <String fx:value="orange" />
+                              <String fx:value="retangles" />
+                           </styleClass>
+                        </AnchorPane>
+                        <AnchorPane layoutX="161.0" layoutY="153.0" prefHeight="80.0" prefWidth="75.0">
+                           <styleClass>
+                              <String fx:value="orange" />
+                              <String fx:value="retangles" />
+                           </styleClass>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="62.0" layoutY="69.0" prefHeight="144.0" prefWidth="674.0">
+                     <styleClass>
+                        <String fx:value="anchorpane" />
+                        <String fx:value="milieu-retangle" />
+                     </styleClass>
+                     <children>
+                        <Label layoutX="198.0" layoutY="70.0" opacity="0.71" styleClass="solde-text" text="Solde :" />
+                        <Label layoutX="274.0" layoutY="61.0" opacity="0.76" styleClass="solde" text="4,000,540 Fcfa" />
+                        <Text fill="WHITE" layoutX="34.0" layoutY="32.0" opacity="0.49" strokeType="OUTSIDE" strokeWidth="0.0" text="Votre portefeuille">
+                           <font>
+                              <Font name="System Bold" size="19.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="525.0" layoutY="-3.0" rotate="-32.0">
+                           <image>
+                              <Image url="@../images/1x/portefeuilleIcon.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="635.0" layoutY="7.0" prefHeight="35.0" prefWidth="35.0">
+                     <styleClass>
+                        <String fx:value="cyan" />
+                        <String fx:value="profil" />
+                        <String fx:value="carre" />
+                     </styleClass>
+                     <children>
+                        <ImageView fitHeight="20.0" fitWidth="14.0" layoutX="10.0" layoutY="7.0">
+                           <image>
+                              <Image url="@../images/abonnéIcon_1.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="57.0" layoutY="287.0" prefHeight="129.0" prefWidth="142.0">
+                     <styleClass>
+                        <String fx:value="gray" />
+                        <String fx:value="retangles" />
+                     </styleClass>
+                     <children>
+                        <AnchorPane layoutX="30.0" layoutY="39.0" prefHeight="74.0" prefWidth="81.0">
+                           <styleClass>
+                              <String fx:value="white" />
+                              <String fx:value="retangles" />
+                              <String fx:value="shadow" />
+                           </styleClass>
+                           <children>
+                              <ImageView layoutX="21.0" layoutY="13.0">
+                                 <image>
+                                    <Image url="@../images/Paypal.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="232.0" layoutY="287.0" prefHeight="129.0" prefWidth="142.0">
+                     <styleClass>
+                        <String fx:value="gray" />
+                        <String fx:value="retangles" />
+                     </styleClass>
+                     <children>
+                        <AnchorPane layoutX="30.0" layoutY="37.0" prefHeight="74.0" prefWidth="81.0">
+                           <styleClass>
+                              <String fx:value="white" />
+                              <String fx:value="retangles" />
+                              <String fx:value="shadow" />
+                           </styleClass>
+                           <children>
+                              <ImageView fitHeight="42.0" fitWidth="58.0" layoutX="12.0" layoutY="13.0">
+                                 <image>
+                                    <Image url="@../images/1x/Tmoneyicon.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="23.0" layoutY="4.0" prefHeight="29.0" prefWidth="96.0">
+                           <styleClass>
+                              <String fx:value="white" />
+                              <String fx:value="retangles" />
+                           </styleClass>
+                           <children>
+                              <Label prefHeight="29.0" prefWidth="96.0" styleClass="tmoney-text" text="       Tmoney" />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="411.0" layoutY="288.0" prefHeight="129.0" prefWidth="142.0">
+                     <styleClass>
+                        <String fx:value="gray" />
+                        <String fx:value="retangles" />
+                     </styleClass>
+                     <children>
+                        <AnchorPane layoutX="30.0" layoutY="39.0" prefHeight="74.0" prefWidth="81.0">
+                           <styleClass>
+                              <String fx:value="white" />
+                              <String fx:value="shadow" />
+                              <String fx:value="retangles" />
+                           </styleClass>
+                           <children>
+                              <ImageView fitHeight="36.0" fitWidth="63.0" layoutX="9.0" layoutY="17.0">
+                                 <image>
+                                    <Image url="@../images/1x/moovIcon2.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="22.0" layoutY="5.0" prefHeight="29.0" prefWidth="96.0">
+                           <styleClass>
+                              <String fx:value="white" />
+                              <String fx:value="retangles" />
+                           </styleClass>
+                           <children>
+                              <Label layoutY="6.0" prefHeight="29.0" prefWidth="96.0" styleClass="moov-text" text="   Moov Money" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+                  <Button layoutX="479.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="32.0" styleClass="search-btn">
+                     <graphic>
+                        <ImageView>
+                           <image>
+                              <Image url="@../images/1x/searchIcon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <AnchorPane layoutX="79.0" layoutY="293.0" prefHeight="29.0" prefWidth="96.0">
+                     <styleClass>
+                        <String fx:value="white" />
+                        <String fx:value="retangles" />
+                     </styleClass>
+                     <children>
+                        <Label layoutY="6.0" prefHeight="29.0" prefWidth="96.0" styleClass="paypal-text" text="         PayPal" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                     </children>
+                  </AnchorPane>
+                  <Label layoutX="35.0" layoutY="12.0" prefHeight="36.0" prefWidth="162.0" styleClass="welcome-text" text="Bonjour, Ben" />
+                  <Label layoutX="66.0" layoutY="264.0" opacity="0.33" styleClass="compte-text" text="Comptes" />
+                  <AnchorPane layoutX="764.0" prefHeight="181.0" prefWidth="152.0">
+                     <styleClass>
+                        <String fx:value="gray" />
+                        <String fx:value="retangle1" />
+                        <String fx:value="shadow" />
+                     </styleClass>
+                     <children>
+                        <AnchorPane layoutX="22.0" layoutY="57.0" prefHeight="80.0" prefWidth="106.0">
+                           <styleClass>
+                              <String fx:value="white" />
+                              <String fx:value="retangles" />
+                           </styleClass>
+                           <children>
+                              <Label layoutX="25.0" styleClass="nb-jour" text="21">
+                                 <font>
+                                    <Font size="53.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <Label layoutX="30.0" layoutY="17.0" opacity="0.61" styleClass="nom-jour" text="Dimanche">
+                           <font>
+                              <Font size="21.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="33.0" layoutY="142.0" opacity="0.56" styleClass="moi-annee" text="Janvier 2024">
+                           <font>
+                              <Font size="21.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <Button layoutX="566.0" layoutY="8.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="22.0" styleClass="notif-btn">
+                     <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="25.0">
+                           <image>
+                              <Image url="@../images/1x/DashboardIcon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="-24.0" prefHeight="602.0" prefWidth="198.0" styleClass="anchorpane">
+               <children>
+                  <Label layoutX="113.0" layoutY="489.0" styleClass="signout-text" text="Sign Out" />
+                  <ImageView fitHeight="89.0" fitWidth="89.0" layoutX="65.0" layoutY="-1.0">
+                     <image>
+                        <Image url="@../images/1x/eganouIcon5.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="85.0" layoutY="569.0" opacity="0.62" styleClass="name-app" text="éGANOU" />
+                  <Button layoutX="75.0" layoutY="484.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" styleClass="signout-btn">
+                     <graphic>
+                        <ImageView fitHeight="12.0" fitWidth="12.0">
+                           <image>
+                              <Image url="@../images/1x/logoutIcon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <AnchorPane layoutX="64.0" layoutY="92.0" prefHeight="2.0" prefWidth="90.0" styleClass="cyan" />
+               </children>
+            </AnchorPane>
+            <Button layoutX="7.0" layoutY="141.0" mnemonicParsing="false" onAction="#OpenDashboard" prefHeight="38.0" prefWidth="181.0" styleClass="nav-bar-btn" text="    Dashboard" />
+            <Button layoutX="7.0" layoutY="211.0" mnemonicParsing="false" onAction="#OpenMenu" prefHeight="38.0" prefWidth="181.0" styleClass="nav-bar-btn" text="Menu     " />
+            <Button layoutX="7.0" layoutY="278.0" mnemonicParsing="false" onAction="#OpenCaisse" prefHeight="32.0" prefWidth="181.0" styleClass="nav-bar-btn" text="Caisse    " />
+            <Button layoutX="7.0" layoutY="346.0" mnemonicParsing="false" onAction="#OpenMessage" prefHeight="32.0" prefWidth="181.0" styleClass="nav-bar-btn" text="Message" />
+            <ImageView fitHeight="19.0" fitWidth="19.0" layoutX="33.0" layoutY="152.0">
+               <image>
+                  <Image url="@../images/1x/DashboardIcon_1.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="17.0" fitWidth="17.0" layoutX="33.0" layoutY="222.0">
+               <image>
+                  <Image url="@../images/1x/menuIcon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="17.0" fitWidth="17.0" layoutX="33.0" layoutY="356.0">
+               <image>
+                  <Image url="@../images/1x/messageIcon_1.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="17.0" fitWidth="17.0" layoutX="33.0" layoutY="288.0">
+               <image>
+                  <Image url="@../images/1x/caisseIcon.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

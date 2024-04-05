@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="601.0" prefWidth="946.0" styleClass="white" stylesheets="@../styles/home.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MainController">
+   <children>
+      <AnchorPane layoutX="115.0" prefHeight="60.0" prefWidth="710.0">
+         <styleClass>
+            <String fx:value="cyan" />
+            <String fx:value="retangle1" />
+            <String fx:value="shadow-2" />
+         </styleClass>
+         <children>
+            <Button layoutX="302.0" layoutY="9.0" mnemonicParsing="false" styleClass="menu-nav-bar-btn" text="Tmoney">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button layoutX="472.0" layoutY="9.0" mnemonicParsing="false" styleClass="menu-nav-bar-btn" text="Moov Money">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button layoutX="137.0" layoutY="10.0" mnemonicParsing="false" onAction="#OpenPaypalMenu" styleClass="menu-nav-bar-btn" text="PayPal">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="39.0" layoutY="79.0" prefHeight="451.0" prefWidth="880.0" styleClass="retangles">
+         <children>
+            <ImageView fitHeight="50.0" fitWidth="60.0" layoutX="390.0" styleClass="shadow-2">
+               <image>
+                  <Image url="@../images/Paypal.png" />
+               </image>
+            </ImageView>
+            <AnchorPane fx:id="paypal_menu" layoutX="47.0" layoutY="173.0" prefHeight="200.0" prefWidth="200.0" visible="false">
+               <styleClass>
+                  <String fx:value="cyan" />
+                  <String fx:value="retangles" />
+               </styleClass>
+               <children>
+                  <Button layoutX="40.0" layoutY="40.0" mnemonicParsing="false" onAction="#openDepot" prefHeight="25.0" prefWidth="116.0" styleClass="transact-btn2" text="Dépôt" />
+                  <Button layoutX="40.0" layoutY="90.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="116.0" styleClass="transact-btn2" text="Retrait" />
+                  <Button layoutX="42.0" layoutY="140.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="116.0" styleClass="transact-btn2" text="Virement" />
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="depot_affiche" layoutX="409.0" layoutY="111.0" prefHeight="326.0" prefWidth="371.0" styleClass="white" visible="false">
+               <children>
+                  <TextField layoutX="155.0" layoutY="83.0" styleClass="depot-textField" />
+                  <Button layoutX="155.0" layoutY="241.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="149.0" styleClass="depot-valide-btn" text="Valider" />
+                  <Label layoutX="172.0" layoutY="17.0" text="Dépôt" textFill="#3cc6b7">
+                     <font>
+                        <Font name="System Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <ComboBox layoutX="155.0" layoutY="134.0" prefWidth="150.0" promptText="Banque" styleClass="depot-combobox" />
+                  <PasswordField layoutX="155.0" layoutY="185.0" styleClass="depot-textField" />
+                  <Label layoutX="76.0" layoutY="83.0" text="Montant :" textFill="#3cc6b7">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="54.0" layoutY="183.0" text="Code secret :" textFill="#3cc6b7">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <Button layoutX="28.0" layoutY="95.0" mnemonicParsing="false" onAction="#Back" styleClass="back-btn">
+         <graphic>
+            <ImageView fitHeight="12.0" fitWidth="14.0">
+               <image>
+                  <Image url="@../images/1x/1x/back.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>
